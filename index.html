@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Livraria Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">📚 Livraria</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Catálogo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="container text-center py-5">
+    <h1 class="display-4 fw-bold">Bem-vindo à Livraria Bootstrap</h1>
+    <p class="lead">Os melhores livros em um layout totalmente <mark>responsivo</mark>.</p>
+    <blockquote class="blockquote">
+      <p>"Um livro é um sonho que você segura nas mãos."</p>
+      <footer class="blockquote-footer">Neil Gaiman</footer>
+    </blockquote>
+  </header>
+
+  <!-- Cards de livros -->
+  <section class="container my-5">
+    <h2 class="mb-4">Destaques</h2>
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/300/200?random=1" class="card-img-top" alt="Livro 1">
+          <div class="card-body">
+            <h5 class="card-title">O Pequeno Príncipe</h5>
+            <p class="card-text">Uma história emocionante que encanta gerações.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/300/200?random=2" class="card-img-top" alt="Livro 2">
+          <div class="card-body">
+            <h5 class="card-title">Dom Casmurro</h5>
+            <p class="card-text">Clássico da literatura brasileira por Machado de Assis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/300/200?random=3" class="card-img-top" alt="Livro 3">
+          <div class="card-body">
+            <h5 class="card-title">1984</h5>
+            <p class="card-text">Uma distopia marcante de George Orwell.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabela de preços -->
+  <section class="container my-5">
+    <h2 class="mb-4">Tabela de Preços</h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th>Livro</th>
+            <th>Autor</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>O Pequeno Príncipe</td>
+            <td>Antoine de Saint-Exupéry</td>
+            <td>R$ 29,90</td>
+          </tr>
+          <tr>
+            <td>Dom Casmurro</td>
+            <td>Machado de Assis</td>
+            <td>R$ 34,90</td>
+          </tr>
+          <tr>
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td>R$ 39,90</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Exemplo de Código -->
+  <section class="container my-5">
+    <h2 class="mb-4">Exemplo de Código</h2>
+    <pre><code>&lt;h1&gt;Bem-vindo à Livraria&lt;/h1&gt;
+&lt;p&gt;Aqui você encontra os melhores livros&lt;/p&gt;
+</code></pre>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0">&copy; 2025 Livraria Bootstrap - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
